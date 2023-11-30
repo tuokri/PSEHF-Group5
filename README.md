@@ -1,6 +1,7 @@
 # PSEHF-Group5
 
-GitHub actions will deploy the app to fly.io automatically on each commit to the master branch.
+~~GitHub actions will deploy the app to fly.io automatically on each commit to the master branch.~~
+TODO: automatic deploy doesn't work currently, fixing soon.
 
 If needed, deploy to fly.io manually with:
 ```shell
