@@ -1,0 +1,17 @@
+# fly.toml app configuration file generated for psehf-group5 on 2023-11-30T21:58:19+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "psehf-group5"
+primary_region = "ams"
+
+[build]
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
