@@ -11,4 +11,4 @@ fly deploy
 - TODO: fly.io usage instructions
 - TODO: add access to fly.io project for other devs
 
-[https://fly.io/apps/psehf-group5](https://psehf-group5.fly.dev/)https://psehf-group5.fly.dev/
+https://psehf-group5.fly.dev/
